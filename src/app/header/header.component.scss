@@ -1,21 +1,10 @@
-.header-main-container {
-    background: #ffffff;
-    width: 2560px;
-    margin: 0 auto;
-    display: inline-flex;
-    // box-shadow: 2px 5px #d4d4d4;
-    padding: 0 20px;
-    >img {
-        width: 70px;
-        height: 70px;
-    }
+.header-img {
+  height: 50px;
+  width: 50px;
 }
-.header-ul {
-    display: inline-flex;
-    width: 500px;
-    justify-content: space-between;
-    list-style: none;
-    >li {
-        font-size: 45px;
-    }
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 8.5rem;
+  }
 }
