@@ -1,0 +1,10 @@
+.carousel-img {
+    width: 100%;
+    height: 200px;
+}
+
+@media (min-width: 992px) {
+    .carousel-img {
+        height: 400px;
+    }
+  }
